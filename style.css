@@ -16,9 +16,7 @@ button {
     background: #755d7a;
     overflow: none;
     border: none;
-#start {
-    
-}
+
 }
 #main {
     width: 40%;
@@ -35,11 +33,22 @@ button {
     display: flex;
     justify-content: space-between;
 }
-.btn {
+.btn,#start {
     padding: 15px;
     color: white;
     font-size: 30px;
     border: 1px solid white;
     border-radius: 10px;
     transition: all 0.5s;
+}
+.btn:hover {
+    background: white;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 30px;
+}
+.none {
+    display: none !important;
 }
